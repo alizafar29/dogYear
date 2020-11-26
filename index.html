@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog_Age_Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="bgimg">
+        <h1>Convert Your Age into Dog Year.</h1>
+        <form>
+            <input type="text" id="humanAge" onclick="getAge('humanAge')" placeholder="Enter the Human's Age : "> <span>=</span>
+
+            <input type="text" id="dogAge" onclick="getAge('dogAge')" placeholder="Dog's Year Will be : " readonly><br><br>
+            <button type="button" value="Convert"  onclick="convertAge()">Convert</button>
+
+            
+        </form>
+
+    </div>
+
+<script src="dog.js"></script>
+</body>
+</html>
