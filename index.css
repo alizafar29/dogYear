@@ -1,0 +1,79 @@
+body, html{
+    height: 97%;
+}
+
+.bgimg{
+    background-image: url("https://i.pinimg.com/originals/4e/f8/30/4ef830ac4c1d02d5529e6c8226bf707c.gif");
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 250px;
+
+
+}
+.bgimg form{
+    padding-top: 5%;
+    padding-left: 2%;
+}
+.bgimg h1{
+    padding-top: 3%;
+    padding-left: 2%;
+    font-size: 200%;
+    width: auto;
+    min-width: 10%;
+}
+
+.bgimg form input{
+    width: 78%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: black;
+    font-weight: bold;
+    padding-left: 1%;
+    min-width: 250px;
+    margin: 1% 0% 3% 0%;
+    margin-left: 7%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+::placeholder{
+    color: black;
+    font-weight: bold;
+}
+
+.bgimg form button{
+    width: 80%;
+    margin-left: 7%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid red;
+    color: white;
+    font-weight: bold;
+    background-color: red;
+    font-size: 150%;
+    min-width: 250px;
+    margin-bottom: 10%;
+}
+
+span{
+    color: black;
+    font-weight: bold;
+    font-size: 200%;
+    text-align: right;
+    margin: 1%;
+    margin-left: 45%;
+    
+}
+
+form{
+    border: 1px solid red;
+    width: 30%;
+    margin-left: 2%;
+    padding-bottom: 5%;
+    border-radius: 10px;
+    min-width: 300px;
+}
