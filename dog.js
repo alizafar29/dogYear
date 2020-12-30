@@ -10,7 +10,7 @@ function convertAge()
         {
             age = Number(document.getElementById('humanYear').value);
 
-            if(age >= 10.5 && age<=21)
+            if(age > 0 && age<=21)
                     {
                         result = age/10.5;
                         years = parseInt(result);
